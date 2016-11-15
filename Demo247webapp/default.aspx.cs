@@ -13,5 +13,11 @@ namespace Demo247webapp
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Trace.TraceInformation("Button Clicked!!");
+
+        }
     }
 }
